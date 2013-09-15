@@ -10,7 +10,7 @@ Change the name `doobot` to name of your bot.
 Below is an example of deploying `doobot` on heroku.
 
 ``` shell
-heroku create punerbot --stack cedar
+heroku create doobot --stack cedar
 git push heroku master
 heroku config:add HUBOT_IRC_SERVER="irc.freenode.net"
 heroku config:add HUBOT_IRC_ROOMS="#doothings"
